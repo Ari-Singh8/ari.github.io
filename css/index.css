@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+
+
+div>h1 {
+    display: inline-block;
+    border: 0.1cm solid black;
+    padding: 0.15em 0.6em;
+    margin: 0.5em auto;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+div {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+h1#index {
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    text-align: center;
+}
